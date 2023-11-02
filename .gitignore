@@ -1,0 +1,41 @@
+# Rust
+/target/
+.cargo/
+Cargo.lock
+**/target/
+**/Cargo.lock
+
+# Build artifacts
+**/target/debug/
+**/target/release/
+
+# Ignore compiled binary, examples, and workspace files
+**/*.rs.bk
+**/Cargo.toml.bk
+**/*.rs.bk.*
+**/Cargo.toml.bk.*
+**/workspace
+
+# IntelliJ IDEA
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Node.js (npm/yarn)
+/node_modules/
+/package-lock.json
+/yarn.lock
+**/node_modules/
+**/package-lock.json
+**/yarn.lock
+
+# Editors
+*.swp
+*~
+.project
+.DS_Store
+
+# OS generated files
+Thumbs.db
+.DS_Store
